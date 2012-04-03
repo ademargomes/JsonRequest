@@ -17,8 +17,10 @@ Leave a comment or get in touch on Twitter : @ademarsgomes
 
 How To Use It?
 ------------------
-Copy JsonRequest.dll, Newtonsoft.Json.dll and Newtonsoft.Json.xml to your bin folder, then create the reference for JsonRequest.dll. Then simple type:
+Build the project and copy JsonRequest.dll, Newtonsoft.Json.dll and Newtonsoft.Json.xml to your bin folder, then create the reference for JsonRequest.dll. 
+You can also download the binaries from the [Download Page] here on GitHub, and simple drop the files in the bin folder under your project folder.
 
+Then simple type:
 
     var request = new Request();
     var response = request.Execute("http://localhost:1234/");
@@ -98,3 +100,4 @@ JsonRequest uses the very good Json serializer Newtonsoft.Json. [More about it h
 
 [here]: http://nancyfx.org/
 [More about it here]: http://james.newtonking.com/
+[Download Page]: https://github.com/ademargomes/JsonRequest/downloads
